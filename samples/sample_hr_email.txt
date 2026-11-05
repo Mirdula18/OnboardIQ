@@ -1,0 +1,35 @@
+To:      <bot inbox, e.g. you+hr@gmail.com — or the bot account itself>
+Subject: New Hire – Priya Sharma
+Attach:  any 2 files, e.g. offer_letter.pdf and id_proof.pdf (images must be > 10 KB or they are
+         treated as signature images and skipped)
+
+---------------------------------------------------------------- body below this line
+
+Hi team,
+
+Please start onboarding for our new hire.
+
+Full Name: Priya Sharma
+Employee ID: EMP2045
+Department: Engineering
+Designation: Software Engineer
+Joining Date: 2026-11-10
+Location: Coimbatore Office
+Reporting Manager: Arun Kumar
+Email: priya.sharma@company.com
+Phone: +91 98xxxxxxx
+
+Attachments: offer_letter.pdf, id_proof.pdf
+
+Thanks,
+HR
+
+---------------------------------------------------------------- notes
+
+- Required: Full Name, Employee ID, Joining Date. Remove the "Employee ID" line to test T4 (NEEDS_INFO).
+- Dates: YYYY-MM-DD or DD/MM/YYYY.
+- Accepted label synonyms: Name / Employee Name; Emp ID / Employee No; Role / Title;
+  DOJ / Date of Joining; Work Location / Office; Manager.
+- Shortcut: run sendSampleHrEmail() (or sendSampleHrEmailMissingId()) from the Apps Script editor.
+  It sends this exact email from your own account, so it is only picked up when
+  SELF_TEST_MODE = TRUE. With SELF_TEST_MODE = FALSE, send it from a second account.
